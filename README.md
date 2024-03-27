@@ -12,10 +12,10 @@
 - [x] Executando Kibana no Docker
 - [x] Conceitos sobre o ElasticSearch
 - [x] Inserindo seu primeiro documento
-- [ ] Inserindo dados em massa
-- [ ] Iniciando com consultas no ElasticSearch
-- [ ] Trabalhando com agregações
-- [ ] Conclusão
+- [x] Inserindo dados em massa
+- [x] Iniciando com consultas no ElasticSearch
+- [x] Trabalhando com agregações
+- [x] Conclusão
 
 ### :hammer: Tecnologias
  <ul>
