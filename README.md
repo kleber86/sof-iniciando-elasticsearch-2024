@@ -5,11 +5,11 @@
 </div>
 
 ### :memo: Aulas
-- [ ] Introdução
-- [ ] Instalando ElasticSearch
-- [ ] Instalando Kibana
-- [ ] Executando ElasticSearch no Docker
-- [ ] Executando Kibana no Docker
+- [x] Introdução
+- [x] Instalando ElasticSearch
+- [x] Instalando Kibana
+- [x] Executando ElasticSearch no Docker
+- [x] Executando Kibana no Docker
 - [ ] Conceitos sobre o ElasticSearch
 - [ ] Inserindo seu primeiro documento
 - [ ] Inserindo dados em massa
@@ -19,5 +19,7 @@
 
 ### :hammer: Tecnologias
  <ul>
-    <li>Visual Studio Code</li>
+    <li>ElasticSearch</li>
+    <li>Kibana</li>
+    <li>Docker</li>
 </ul>
