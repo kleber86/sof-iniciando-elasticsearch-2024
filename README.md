@@ -10,8 +10,8 @@
 - [x] Instalando Kibana
 - [x] Executando ElasticSearch no Docker
 - [x] Executando Kibana no Docker
-- [ ] Conceitos sobre o ElasticSearch
-- [ ] Inserindo seu primeiro documento
+- [x] Conceitos sobre o ElasticSearch
+- [x] Inserindo seu primeiro documento
 - [ ] Inserindo dados em massa
 - [ ] Iniciando com consultas no ElasticSearch
 - [ ] Trabalhando com agregações

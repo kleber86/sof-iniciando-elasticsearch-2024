@@ -60,3 +60,66 @@ Obs: É possivel que durante a configuração ou após o container do ElasticSea
 <div align="center">
     <img src="https://github.com/kleber86/sof-iniciando-elasticsearch-2024/blob/main/arquivos/elastic.png?raw=true">
 </div>
+
+# Conceitos sobre o ElasticSearch
+```
+O ElasticSearch usa estrutura de dados camada índice invertido.
+
+Umm índice invertido lista cada palavra exclusiva que apareça em qualquer documento e identifica todos os documentos em que cada palavra aparece.
+
+Durante o processo de indexação, o elasticSearch armazena documentos e desenvolve um indice invertido para tornar os dados dos documentos buscáveis praticamente em tempo real.
+
+É similiar a um banco de dados relacional.
+
+Um índice consiste em um ou mais documento.
+
+São objetos json que são armazenados dentro de um índice no ElasticSearch.
+
+Chave => valor
+```
+
+# Inserindo seu primeiro documento
+
+Menu -> Devtools
+Criando o primeiro documento:
+```
+PUT /customer/_doc/1
+{
+  "name": "John Doe"
+}
+```
+Exemplo de retorno:
+```
+{
+  "_index": "customer",
+  "_id": "1",
+  "_version": 1,
+  "result": "created",
+  "_shards": {
+    "total": 2,
+    "successful": 1,
+    "failed": 0
+  },
+  "_seq_no": 2,
+  "_primary_term": 1
+}
+```
+
+Consultando um documento: 
+```
+GET /customer/_doc/1
+```
+Exemplo de retorno:
+```
+{
+  "_index": "customer",
+  "_id": "1",
+  "_version": 2,
+  "_seq_no": 1,
+  "_primary_term": 1,
+  "found": true,
+  "_source": {
+    "name": "John Doe"
+  }
+}
+```
