@@ -57,3 +57,6 @@ Depois da configuração é só logar com o usuário `elastic` e senha que foi g
 
 Obs: É possivel que durante a configuração ou após o container do ElasticSearch seja encerrado, é só iniciar novamente e continuar a configuração ou a inicialização.
 
+<div align="center">
+    <img src="kleber86/sof-iniciando-elasticsearch-2024/arquivos/elastic.png">
+</div>
